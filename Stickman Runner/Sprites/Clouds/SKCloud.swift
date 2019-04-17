@@ -18,6 +18,7 @@ class SKCloud: SKSpriteNode {
         
         startMoving()
     }
+
     
     func startMoving() {
         let moveLeft = SKAction.moveBy(x: -10, y: 0, duration: 1)
