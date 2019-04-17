@@ -60,7 +60,7 @@ class NormalGameScene: SKScene, SKPhysicsContactDelegate {
     
     func addEveryIntialThing() {
         //Background
-        backgroundColor = #colorLiteral(red: 0, green: 0.4793452024, blue: 0.9990863204, alpha: 1)
+        backgroundColor = #colorLiteral(red: 0, green: 0.4033927341, blue: 0.8371316386, alpha: 1)
         
         //Stick Man
         mainHero = SKStickMan()
