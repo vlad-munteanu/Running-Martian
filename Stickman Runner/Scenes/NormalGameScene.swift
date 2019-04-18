@@ -89,8 +89,8 @@ class NormalGameScene: SKScene, SKPhysicsContactDelegate {
         cloudGenerator = SKCloudGenerator(texture: nil, color: UIColor.clear, size: view!.frame.size)
         cloudGenerator.position = view!.center
         addChild(cloudGenerator)
-        cloudGenerator.populate(num: 7)
-        cloudGenerator.startGeneratingMoreClouds(spawnTime: 10)
+        cloudGenerator.populate(num: 9)
+        cloudGenerator.startGeneratingMoreClouds(spawnTime: 9)
         
         //pauseButton
         pauseLabel.fontSize = 16
@@ -177,7 +177,7 @@ class NormalGameScene: SKScene, SKPhysicsContactDelegate {
         scoreTimerTime = 1
         xPerSec = 150.0
         
-        let scene = NormalGameScene(size: size)
+        let scene = MainMenuScene(size: size)
         self.view?.presentScene(scene)
         
     }
